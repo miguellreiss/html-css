@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+}
+
+body {
+    background-image: radial-gradient(circle, red, black);
+}
+
+main {
+    background-color: white;
+    box-shadow: 2px 2px 2px #F24405;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.mudar-home {
+    display: inline-block;
+    margin-inline: 120px;
+}
+
+.titulo-principal {
+    text-align: center;
+}
+
+.mudar-img-principal {
+    text-align: center;
+}
+
+h2#mudar-titulo{
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #F24405;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: #F24405;
+}
+
+p::first-letter {
+    color: red;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 60px;
+}

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to left, #823A6D, #D43243, #5C3C85);
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 15px 0px 15px 0px;
+}
+
+header > section {
+    box-shadow: 0px 0px 1px 0px black;
+    margin: 8px 0px 8px 0px;
+    padding-bottom: 5px;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color: gray;
+    text-decoration: none;
+}
+
+nav > ul {
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+}
+
+nav ul > li {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 8px 0px 0px;
+}
+
+.ajustar-contatos {
+    margin-left: 1070px;
+    padding: 2px;
+}
+
+.links-header {
+    margin: 0px 90px 0px 90px;
+    color: black;
+    text-decoration: none;
+}
+
+section > ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-navegacao {
+    color: gray;
+    text-decoration: none;
+    margin: 0px 8px 0px 8px ;
+}
+
+code {
+    color: gray;
+}
+
+main {
+    background-color: white;
+    width: 85%;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Work-Sans", sans-serif;
+    padding: 8px;
+    margin: 21px 0px 0px 0px;
+}
+
+h3 {
+    font-family: sans-serif;
+    padding: 8px;
+    margin: 0px;
+}
+
+time {
+    padding: 8px;
+}
+
+.editar-autor {
+    padding: 8px;
+    margin: 0px;
+}
+
+picture {
+    display: block;
+    text-align: center;
+}
+
+picture > p {
+    font-style: oblique;
+    color: grey;
+    font-size: 12px;
+    margin: 0px;
+}
+
+article {
+    box-shadow: 0px 0px 1px 0px black;
+    padding: 10px;
+    width: 865px;
+    height: 663px;
+}
+
+article > p {
+    text-align: justify;
+    margin: 16px;
+    text-indent: 15px;
+}
+
+footer {
+    box-shadow: 0px 0px 1px 0px black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #5C3C85;
+}
+
+footer > aside {
+    flex: 1;
+    min-width: 180px;
+    margin: 0 10px
+}
+
+footer aside p {
+  font-weight: bold;
+  margin-bottom: 10px; 
+  color: white;
+}
+
+footer aside ul li > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer aside ul li > a:hover {
+    color: #823A6D;
+}
+
+footer aside > ul {
+    list-style-type: none;
+    color: white;
+}
+
+footer > img { 
+    display: block;
+    margin: 0 0 50px 1000px;
+}
+
+strong {
+    display: none;
+}
+
+aside ul li:hover > strong {
+    display: block;
+    color: white;
+}
+
+.final-footer {
+    box-shadow: 0px 0px 1px 0px black;;
+}
+
+.final-footer p {
+  display: inline-block;
+  padding: 10px;
+}
+
+.final-footer p:first-child {
+  margin: 0;
+}
+
+.ajustar-paragrafo-footer {
+    margin: 0px 0px 0px 485px;
+}

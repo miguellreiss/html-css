@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Abra esse site em diversos dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(min-width: 950px)" srcset="imagens/tam-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/tam-m.png" type="image/png" >
+        <img src="Imagens/Tam-p.png" alt="foto grande">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Reproduzir áudio em HTML5</p>
+    <audio src="midia/hino-do-flamengo.mp3" controls></audio>
+    <audio preload="metadata" controls loop> <!--preload: pre-carregamento, metadata: carrega apenas o simples, nome do arquivo, data, duração etc. Controls: aparece o icone de play, loop: assim que o audio acaba, recomeça-->
+        <source src="midia/hino-do-flamengo.mp3" type="audio/mpeg"> <!--source para procurar e src colocar o link, no caso o local do arquivo, esse type é especifico para mp3, mas tem o audio/ogg, audio/wav, entre outros-->
+    </audio>
+    
+</body>
+</html>

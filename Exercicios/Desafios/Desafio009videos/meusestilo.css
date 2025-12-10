@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-image: url(imagens/netflix.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto 100px auto 100px;
+
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        nav {
+            background-color: rgb(58, 54, 54);
+            padding: 3px;
+        }
+        nav > a {
+            color: white;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
+        h1 {
+            text-align: center;
+            text-shadow: 2px 2px 2px rgb(29, 29, 31);
+        }
+        h2 {
+            text-align: center;
+        }
+        img {
+            display: flex;
+            margin: auto;
+        }
+        footer {
+            background-color: gray;
+            margin: -16px -100px -16px -100px;
+        }
+        .ajustar-rodape {
+            text-align: left;
+        }
+        article > aside {
+            background-color: grey;
+        }
+        aside > p {
+            font-style: italic;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brasil News 2025</h1>
+        <h2>Noticias hoje 10/11/2025</h2>
+        <nav>
+            <a href="#" target="_blank" rel="next">Noticias dia 10/11/2025</a>
+            <a href="#" target="_blank" rel="next">Notícias dia 09/11/2025</a>
+            <a href="#" target="_blank" rel="next">Notícias dia 08/11/2025</a>
+            <a href="#" target="_blank" rel="next">Notícias dia 07/11/2025</a>
+        </nav>
+    </header>
+    <main>
+            <section id="noticias">
+                <article>
+                        <h2>Flamengo aproxima do Palmeiras</h2>
+                        <img src="imagens/Imagem Flamengo.webp" alt="Erick Pulgar e Neymar" width="500px" height="300px">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, sed nostrum. Ut inventore debitis vero ab praesentium consectetur sed laudantium libero eveniet! Possimus aliquid veritatis iste qui odit omnis facilis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aspernatur perferendis debitis doloremque quod unde quam id, ratione rem, est repudiandae atque aliquam sint, fugit eaque? Aspernatur assumenda unde amet!
+                        </p>
+                        <p><a href="#" target="_blank" rel="next">Ler mais...</a></p>
+                        <aside>
+                            <p>Escrito por: Cicrano</p>
+                        </aside>
+                        <hr>
+                        <h2>Palmeiras perde para o Mirassol</h2>
+                        <img src="imagens/Mirassol.webp" alt="foto Mirassol" width="500px" height="300px">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias soluta sed nulla atque dolorem adipisci dignissimos nihil laborum ullam cumque. Quod corporis nobis consequuntur illo expedita eos voluptatem optio sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, quo vero tenetur nesciunt repudiandae impedit assumenda ratione in. Earum doloribus porro ducimus quam voluptatum aliquid deleniti aperiam libero sequi nam.</p>
+                        <p><a href="#" target="_blank" rel="next">Ler mais...</a></p>
+                        <aside>
+                            <p>Escrito por: Beltrano</p>
+                        </aside>
+                        <hr>
+                        <h2>Cruzeiro empata com Fluminense</h2>
+                        <img src="imagens/Cruzeiro.webp" alt="Foto Cruzeiro" width="500px" height="300px">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias soluta sed nulla atque dolorem adipisci dignissimos nihil laborum ullam cumque. Quod corporis nobis consequuntur illo expedita eos voluptatem optio sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, quo vero tenetur nesciunt repudiandae impedit assumenda ratione in. Earum doloribus porro ducimus quam voluptatum aliquid deleniti aperiam libero sequi nam.</p>
+                        <p><a href="#" target="_blank" rel="next">Ler mais...</a></p>
+                        <aside>
+                            <p>Escrito Por: Fulano</p>
+                        </aside>
+                </article>
+            </section>
+    </main>
+    
+    <footer>
+        <aside class="ajustar-rodape">
+            <p>Todos os diretos reservados&copy;</p>
+            <p>2025</p>
+            <p>Miguel Reis</p>
+            <p>Instagram:<a href="#" class="link-especial">/miguellreis__</a></p>
+        </aside>
+    </footer>
+
+</body>
+</html>

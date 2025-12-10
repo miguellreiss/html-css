@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando conhecimento</title>
+</head>
+<body>
+    <h1>Implementando vídeos</h1>
+    <h2>Servidor interno</h2>
+    <p>Jeito mais facil</p>
+    <video src="midia/Video Site.mp4" controls width="350"></video>
+    <p>Jeito mais dificil</p>
+    <video poster="imagens/Fla.png" width="350" controls loop>
+        <source src="midia/Video Site.mp4" type="video/mp4">
+        <source src="midia/Video Site.webm" type="vdeo/webm">
+    </video>
+    <h2>Colocando imagens dinâmicas</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/tam-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/tam-m.png" type="image/png">
+        <img src="imagens/tam-g.png" alt="Logo Flamengo">
+    </picture>
+    <h2>Colocando audio</h2>
+    <audio src="midia/hino-do-flamengo.mp3" controls loop></audio>
+    <p>Segundo jeito</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/hino-do-flamengo.mp3" type="audio/mp3">
+    </audio>
+    <h2>Colocando conteudo de Servidor externo</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sx86-18V3m8?si=pxSy_eZ8mCEpmxnV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

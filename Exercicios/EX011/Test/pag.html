@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste conhecimento</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Você pode ajustar o tamanho da imagem, diminuindo a aba do navegador.</p>
+    <a href="https://www.flamengo.com.br/">
+        <picture>
+            <source media="(max-width: 750px)" srcset="tam-p.png" type="image/png"> <!--Se a condição media for verdadeira, ou seja, a tela passar de 750px, a imagem sera a que deixei em srcset, que é o buscador da imagem em si, o type é o tipo do arquivo-->
+            <source media="(max-width: 1050px)" srcset="tam-m.png" type="image/png">
+            <img src="tam-g.png" alt="logo flamengo grande" type="image/png">
+        </picture>
+    </a>
+    <p>Você pode ouvir o Hino logo abaixo:</p>
+    <audio src="hino-do-flamengo.mp3" controls loop></audio>
+    <audio preload="metadata" controls loop> <!--preload é um pre carregamento do arquivo, assim que o navegador abre ele ja carrega, controls é para colocar o botão de pause/play etc, ja o loop é para quando o audio terminar, recomeçar-->
+        <source src="hino-do-flamengo.mp3" type="audio/mpeg">
+        <source src="hino-do-flamengo.ogg" type="audio/ogg">
+        <source src="hino-do-flamengo.wav" type="audio/wav">
+    </audio>
+    <p>Caso seu navegador não suportar os áudios, clique <a href="hino-do-flamengo.mp3" download="hino-do-flamengo.mp3" target="_blank" rel="next">aqui</a> para baixar</p>
+    
+</body>
+</html>
