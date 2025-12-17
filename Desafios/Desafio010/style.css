@@ -2,8 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor0:#823A6D;
+    --cor1:#D43243;
+    --cor2:#5C3C85;
+
+}
+
 body {
-    background-image: linear-gradient(to left, #823A6D, #D43243, #5C3C85);
+    background-image: linear-gradient(to left, var(--cor0), var(--cor1), var(--cor2));
     margin: 0px;
 }
 
@@ -152,7 +159,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #5C3C85;
+    background-color: var(--cor2);
 }
 
 footer > aside {
@@ -173,7 +180,7 @@ footer aside ul li > a {
 }
 
 footer aside ul li > a:hover {
-    color: #823A6D;
+    color: var(--cor0);
 }
 
 footer aside > ul {
@@ -203,7 +210,7 @@ aside ul li:hover > strong {
     align-items: center;
     width: auto;
     height: 20%;
-    background-color: #5C3C85;
+    background-color: var(--cor2);
 }
 
 .final-footer p {
