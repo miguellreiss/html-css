@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        td.num {
+            text-align: right;
+            width: 50px;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabela grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 870 907</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 890 517</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 223 263</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 562 007</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 711 196</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 187 029</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>112 330 743</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quam quis earum minus culpa cum eveniet expedita perspiciatis architecto adipisci autem suscipit consequatur! Repellat perferendis quas alias natus eveniet cum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius autem a hic culpa provident eligendi soluta nisi tempore natus consectetur eos nostrum ex consequuntur, incidunt repellendus accusantium at dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio neque beatae quaerat nostrum cumque autem, eveniet vel laborum earum minima quidem nisi adipisci suscipit labore nobis aliquid ea ullam pariatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus mollitia maxime ipsa odit nam in aspernatur, quod, accusantium atque ab quibusdam, asperiores facilis. Magnam quasi minima numquam nesciunt ipsa sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ipsa quia voluptas, nulla ipsam laborum aspernatur tempore adipisci fugit vel odio hic facilis esse cumque tempora non quaerat debitis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quam quis earum minus culpa cum eveniet expedita perspiciatis architecto adipisci autem suscipit consequatur! Repellat perferendis quas alias natus eveniet cum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius autem a hic culpa provident eligendi soluta nisi tempore natus consectetur eos nostrum ex consequuntur, incidunt repellendus accusantium at dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio neque beatae quaerat nostrum cumque autem, eveniet vel laborum earum minima quidem nisi adipisci suscipit labore nobis aliquid ea ullam pariatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus mollitia maxime ipsa odit nam in aspernatur, quod, accusantium atque ab quibusdam, asperiores facilis. Magnam quasi minima numquam nesciunt ipsa sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ipsa quia voluptas, nulla ipsam laborum aspernatur tempore adipisci fugit vel odio hic facilis esse cumque tempora non quaerat debitis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quam quis earum minus culpa cum eveniet expedita perspiciatis architecto adipisci autem suscipit consequatur! Repellat perferendis quas alias natus eveniet cum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius autem a hic culpa provident eligendi soluta nisi tempore natus consectetur eos nostrum ex consequuntur, incidunt repellendus accusantium at dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio neque beatae quaerat nostrum cumque autem, eveniet vel laborum earum minima quidem nisi adipisci suscipit labore nobis aliquid ea ullam pariatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus mollitia maxime ipsa odit nam in aspernatur, quod, accusantium atque ab quibusdam, asperiores facilis. Magnam quasi minima numquam nesciunt ipsa sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ipsa quia voluptas, nulla ipsam laborum aspernatur tempore adipisci fugit vel odio hic facilis esse cumque tempora non quaerat debitis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quam quis earum minus culpa cum eveniet expedita perspiciatis architecto adipisci autem suscipit consequatur! Repellat perferendis quas alias natus eveniet cum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius autem a hic culpa provident eligendi soluta nisi tempore natus consectetur eos nostrum ex consequuntur, incidunt repellendus accusantium at dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio neque beatae quaerat nostrum cumque autem, eveniet vel laborum earum minima quidem nisi adipisci suscipit labore nobis aliquid ea ullam pariatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus mollitia maxime ipsa odit nam in aspernatur, quod, accusantium atque ab quibusdam, asperiores facilis. Magnam quasi minima numquam nesciunt ipsa sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ipsa quia voluptas, nulla ipsam laborum aspernatur tempore adipisci fugit vel odio hic facilis esse cumque tempora non quaerat debitis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quam quis earum minus culpa cum eveniet expedita perspiciatis architecto adipisci autem suscipit consequatur! Repellat perferendis quas alias natus eveniet cum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius autem a hic culpa provident eligendi soluta nisi tempore natus consectetur eos nostrum ex consequuntur, incidunt repellendus accusantium at dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio neque beatae quaerat nostrum cumque autem, eveniet vel laborum earum minima quidem nisi adipisci suscipit labore nobis aliquid ea ullam pariatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus mollitia maxime ipsa odit nam in aspernatur, quod, accusantium atque ab quibusdam, asperiores facilis. Magnam quasi minima numquam nesciunt ipsa sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ipsa quia voluptas, nulla ipsam laborum aspernatur tempore adipisci fugit vel odio hic facilis esse cumque tempora non quaerat debitis?</p>
+    
+</body>
+</html>

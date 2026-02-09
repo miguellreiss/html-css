@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            position: relative;
+        }
+        caption {
+            font-size:1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: bisque;
+        }
+        th {
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            width: 50vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam perferendis natus quidem repudiandae. Velit laborum ab laudantium accusantium voluptate eaque atque inventore dolores saepe aut. Sunt ullam quidem saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa similique, nesciunt numquam dignissimos fuga debitis molestias magni consequuntur ea alias perferendis possimus beatae corrupti veritatis praesentium facilis voluptatum quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero dolore culpa hic ducimus quis recusandae nemo voluptas error adipisci saepe minus nostrum nulla, beatae ipsum ad. Numquam atque nesciunt facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem a hic dignissimos non provident totam. Ipsam dolore ea eligendi nostrum iste, libero blanditiis voluptates error id similique velit, assumenda fugiat.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam perferendis natus quidem repudiandae. Velit laborum ab laudantium accusantium voluptate eaque atque inventore dolores saepe aut. Sunt ullam quidem saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa similique, nesciunt numquam dignissimos fuga debitis molestias magni consequuntur ea alias perferendis possimus beatae corrupti veritatis praesentium facilis voluptatum quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero dolore culpa hic ducimus quis recusandae nemo voluptas error adipisci saepe minus nostrum nulla, beatae ipsum ad. Numquam atque nesciunt facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem a hic dignissimos non provident totam. Ipsam dolore ea eligendi nostrum iste, libero blanditiis voluptates error id similique velit, assumenda fugiat.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam perferendis natus quidem repudiandae. Velit laborum ab laudantium accusantium voluptate eaque atque inventore dolores saepe aut. Sunt ullam quidem saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa similique, nesciunt numquam dignissimos fuga debitis molestias magni consequuntur ea alias perferendis possimus beatae corrupti veritatis praesentium facilis voluptatum quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero dolore culpa hic ducimus quis recusandae nemo voluptas error adipisci saepe minus nostrum nulla, beatae ipsum ad. Numquam atque nesciunt facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem a hic dignissimos non provident totam. Ipsam dolore ea eligendi nostrum iste, libero blanditiis voluptates error id similique velit, assumenda fugiat.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam perferendis natus quidem repudiandae. Velit laborum ab laudantium accusantium voluptate eaque atque inventore dolores saepe aut. Sunt ullam quidem saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa similique, nesciunt numquam dignissimos fuga debitis molestias magni consequuntur ea alias perferendis possimus beatae corrupti veritatis praesentium facilis voluptatum quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero dolore culpa hic ducimus quis recusandae nemo voluptas error adipisci saepe minus nostrum nulla, beatae ipsum ad. Numquam atque nesciunt facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem a hic dignissimos non provident totam. Ipsam dolore ea eligendi nostrum iste, libero blanditiis voluptates error id similique velit, assumenda fugiat.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam perferendis natus quidem repudiandae. Velit laborum ab laudantium accusantium voluptate eaque atque inventore dolores saepe aut. Sunt ullam quidem saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa similique, nesciunt numquam dignissimos fuga debitis molestias magni consequuntur ea alias perferendis possimus beatae corrupti veritatis praesentium facilis voluptatum quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero dolore culpa hic ducimus quis recusandae nemo voluptas error adipisci saepe minus nostrum nulla, beatae ipsum ad. Numquam atque nesciunt facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem a hic dignissimos non provident totam. Ipsam dolore ea eligendi nostrum iste, libero blanditiis voluptates error id similique velit, assumenda fugiat.</p>
+    
+</body>
+</html>
