@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+    header > h1 {
+        padding-left: 9px;
+    }
+     header > nav {
+        margin: 0px 9px 0px 0px;
+        margin-bottom: 5px;
+        padding: 5px;
+        flex-flow: row wrap;
+        justify-content: end;
+        flex-shrink: 1;
+    }
+    header > nav > a {
+        margin-left: 8px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    header {
+        
+        flex-direction: row;
+        align-items: center;
+    }
+    header > h1 {
+        padding-left: 9px;
+        
+    }
+    header > nav {
+        margin: 0px 9px 0px;
+        margin-bottom: 5px;
+        padding: 5px;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+    header > nav > a {
+        margin-left: 8px;
+    }
+}
