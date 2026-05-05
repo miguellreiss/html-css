@@ -7,14 +7,13 @@
     <style>
         .container {
             border: 3px solid blue;
-            height: 250px;
             display: grid;
-            grid-template: repeat(3, auto) / repeat(3, auto);
+            grid-template: repeat(3, 80px) / repeat(3, 1fr);
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
             gap: 5px;
-            place-items: start center;
-            place-content: space-between end;
-            align-content: space-between;
-            justify-content: end;
+            place-items: normal normal;
+            place-content: normal normal;
         }
         .item {
             border: 3px solid red;
@@ -32,6 +31,8 @@
         <div class="item">F</div>
         <div class="item">G</div>
         <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
     </div>
 </body>
 </html>
