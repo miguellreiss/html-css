@@ -6,9 +6,11 @@
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 70px 30px 480px 30px;
-    grid-template-columns: 15% 2fr 15%;
+    grid-template-rows: 80px 40px 1fr 30px;
+    grid-template-columns: 1fr 150px;
     gap: 5px;
 }
 
@@ -17,7 +19,7 @@
     align-items: center;
     justify-content: center;
     background-color: aqua;
-    grid-area: 1 / 1 / 2 / 4;
+    grid-area: 1 / 1 / 2 / -1;
 }
 
 .menu {
@@ -25,7 +27,7 @@
     align-items: center;
     justify-content: center;
     background-color: cadetblue;
-    grid-area: 2 / 1 / 3 / 4;
+    grid-area: 2 / 1 / 3 / -1;
 }
 
 .principal {
@@ -33,7 +35,7 @@
     align-items: center;
     justify-content: center;
     background-color: bisque;
-    grid-area: 3 / 1 / 4 / 3;
+    grid-area: 3 / 1 / 4 / -2;
 }
 
 .secund {
@@ -41,7 +43,7 @@
     align-items: center;
     justify-content: center;
     background-color: chocolate;
-    grid-area: 3 / 3 / 4 / 4;
+    grid-area: 3 / -2 / -2 / -1;
 }
 
 .rodape {
@@ -49,5 +51,5 @@
     align-items: center;
     justify-content: center;
     background-color: tomato;
-    grid-area: 4 / 1 / 5 / 4;
+    grid-area: 4 / 1 / -1 / -1;
 }
